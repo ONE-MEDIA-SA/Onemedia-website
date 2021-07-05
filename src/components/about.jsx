@@ -6,11 +6,11 @@ export const About = (props) => {
           <div className="row no-gutters">
             <div className="content col-xl-5 d-flex align-items-stretch">
               <div className="content">
-                <h3>Voluptatem dignissimos provident quasi</h3>
+                <h3>Sobre nós</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
                 </p>
-                <a href="#" className="about-btn"><span>About us</span> <i className="bx bx-chevron-right"></i></a>
+                <a href="#" className="about-btn"><span>Ler mais</span> <i className="bx bx-chevron-right"></i></a>
               </div>
             </div>
             <div className="col-xl-7 d-flex align-items-stretch">
