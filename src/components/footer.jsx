@@ -7,7 +7,7 @@ export const Footer = (props) => {
             <div className="row">
 
             <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>Presento<span>.</span></h3>
+                <h3>Onemedia<span>.</span></h3>
                 <p>
                 A108 Adam Street <br/>
                 New York, NY 535022<br/>
