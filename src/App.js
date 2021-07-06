@@ -7,32 +7,33 @@ import { Tab } from './components/tab'
 import { Portfolio } from './components/portfolio'
 import { Contact } from './components/contact'
 import { Footer } from './components/footer'
-
-import FloatingWhatsApp from 'react-floating-whatsapp'
-import 'react-floating-whatsapp/dist/index.css'
-
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { RequestBudget } from './components/request_budget'
   
 function App() {
   return (
-    <>
+   <Router>
+      <>
       <Header />
-      <Section />
-      <main id="main">
-        <Clients />
-        <About />
-        <Tab />
-        <Service />
-        <Contact />
-        <Footer />
-       
-
-       
-     {/* <FloatingWhatsApp phoneNumber={843655568} accountName={"Onemedia"}/> */}
-        
-
-      </main>
-      
+      <Switch>
+        <Route exact path="/">
+          <Section />
+          <main id="main">  
+            <Clients />
+            <About />
+            <Tab />
+            <Service />
+            <Contact />
+          </main>
+        </Route>
+        <Route path="/request_budget">
+          <RequestBudget />
+        </Route>
+      </Switch>
+      <Footer />
     </>
+   </Router>
   );
 }
 

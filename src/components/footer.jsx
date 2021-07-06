@@ -55,11 +55,11 @@ export const Footer = (props) => {
 
         <div className="mr-md-auto text-center text-md-left">
             <div className="copyright">
-            &copy; Copyright <strong><span>Presento</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Onemedia</span></strong>. All Rights Reserved
             </div>
             <div className="credits">
             
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="/">Onemedia</a>
             </div>
         </div>
         <div className="social-links text-center text-md-right pt-3 pt-md-0">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Tab = (props) => {
     return (
         <section id="tabs" className="tabs">
@@ -48,7 +50,8 @@ export const Tab = (props) => {
                     <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   </ul>
                 
-                  <button className="btn btn-primary">Solicitar Orçamento</button>
+                   <Link to="/request_budget" className="btn btn-primary" >Solicitar Orçamento</Link>
+                
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                   <img src="assets/img/tabs-1.jpg" alt="" className="img-fluid"/>
