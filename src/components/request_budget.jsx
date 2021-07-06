@@ -2,6 +2,7 @@ import './assets/request_budget.css'
 
 export const RequestBudget = () => {
     return (
+    <> 
     <div className="container card-0 justify-content-center ">
     <div className="card-body px-sm-4 px-0">
         <div className="row justify-content-center mb-5">
@@ -57,5 +58,6 @@ export const RequestBudget = () => {
         </div>
     </div>
 </div>
+</>
     )
 }
