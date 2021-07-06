@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Header = (props) => {
     return (
         <header id="header" className="fixed-top">
@@ -38,7 +40,7 @@ export const Header = (props) => {
                 </nav>
                 {/* .nav-menu */}
       
-                <a href="#about" className="get-started-btn scrollto">Minha conta</a>
+                <Link to="/request_budget" className="get-started-btn scrollto">Minha conta</Link>
               </div>
             </div>
       
