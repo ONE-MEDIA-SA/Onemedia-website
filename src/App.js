@@ -15,10 +15,9 @@ function App() {
   return (
    <Router>
       <>
-      
+      <Header />
       <Switch>
         <Route exact path="/">
-        <Header />
           <Section />
           <main id="main">  
             <Clients />
@@ -26,15 +25,13 @@ function App() {
             <Tab />
             <Service />
             <Contact />
-            <Footer />
           </main>
         </Route>
         <Route path="/request_budget"> 
           <RequestBudget />
-          {/* <Footer /> */}
         </Route>
       </Switch>
-      
+      <Footer />
     </>
    </Router>
   );
